@@ -34,7 +34,7 @@ cron.schedule('1-5 * * * *', () => {
     console.log('running every minute to 1 from 5');
   });
 
-
+console.log('first task is intiated')
 // axios.get('https://jsonplaceholder.typicode.com/users').then((response)=>{
 
 //     console.log(response.data)
